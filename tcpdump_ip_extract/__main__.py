@@ -11,7 +11,7 @@ import argparse
 try:
     from colorama import Fore, Back, Style
 except ImportError:
-    print('Please install colorama')
+    print('Please install colorama using pip install colorama')
     exit()
 
 def main():

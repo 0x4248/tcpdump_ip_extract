@@ -12,7 +12,7 @@ try:
     from colorama import Fore, Back, Style
 except ImportError:
     print('Please install colorama using pip install colorama')
-    exit()
+    exit(1)
 
 def main():
     parser = argparse.ArgumentParser(description='Parse IP addresses from a tcpdump file', prog='tcpdump_ip_extract')

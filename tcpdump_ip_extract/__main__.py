@@ -1,8 +1,8 @@
 # Tcpdump ip extract
 # Parse IP addresses from a tcpdump file
-# Github: https://www.github.com/lewisevans2007/tcpdump_ip_extract
+# Github: https://www.github.com/0x4248/tcpdump_ip_extract
 # License: GNU General Public License v3.0
-# By: Lewis Evans
+# By: 0x4248
 
 import parse
 import re
